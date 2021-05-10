@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    border: 0px;
+}
+
+.resume-header {
+    width: 65%;
+    margin: 0px auto;
+    padding-top: 20px;
+    height: 200px;
+    background-color: #2c3d55;
+}
+
+.resume-header nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+.resume-header nav ul li a {
+    color: white;
+}
+
+.resume-header nav ul li {
+    font-family: 'Avenir', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    display: inline;
+    padding: 10px;
+}
+
+.resume-header nav ul li a:link,
+.resume-header nav ul li a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.resume-header h1 {
+    font-family: 'Avenir', sans-serif;
+    font-size: 75px;
+    text-align: center;
+    color: white;
+}
+
+.resume-header h4 {
+    font-family: 'Avenir', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.resume-block {
+    width: 65%;
+    margin: 0px auto;
+}
+
+.resume-aboutme {
+    width: 45%;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: block;
+}
+
+.resume-aboutme h2 {
+    text-decoration: underline;
+}
+
+.resume-aboutme article {
+    font-family: 'Avenir', sans-serif;
+}
+
+.resume-social {
+    color: white;
+    background-color: #536271;
+    width: 30%;
+    float: right;
+    text-align: center;
+    padding: 10px;
+}
+
+.resume-social article {
+    font-family: 'Avenir', sans-serif;
+}
+
+.resume-social article ul li {
+    padding-bottom: 5px;
+}
+
+.resume-social::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.resume-work {
+    padding-left: 10px;
+    width: 45%;
+    float: left;
+    font-family: 'Avenir', sans-serif;
+}
+
+.resume-work h2 {
+    text-decoration: underline;
+}
+
+.resume-skills {
+    font-family: Avenir;
+    color: white;
+    background-color: #536271;
+    width: 30%;
+    float: right;
+    text-align: center;
+    padding: 10px;
+}
+
+.resume-skills ul li {
+    padding-bottom: 5px;
+}
+
+.resume-block::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.resume-education {
+    font-family: Avenir;
+    color: white;
+    background-color: #536271;
+    width: 30%;
+    float: right;
+    text-align: center;
+    padding: 10px;
+}
+
+.resume-education article ul {
+    text-align: left;
+}
+
+.resume-education::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.resume-projects {
+    width: 50%;
+    float: left;
+    padding-top: 10px;
+    font-family: Avenir;
+}
+
+.resume-projects h2 {
+    text-decoration: underline;
+}
