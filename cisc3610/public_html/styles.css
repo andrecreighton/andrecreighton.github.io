@@ -2,3 +2,7 @@ h1 {
     font-family: Avenir;
     border-bottom: solid 1px black;
 }
+
+fieldset {
+    padding: 50px;
+}
